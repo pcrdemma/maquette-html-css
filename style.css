@@ -2,26 +2,50 @@
 @import url(https://fr.allfont.net/allfont.css?fonts=montserrat);
 
 /* structure du haut de page */
-.barre {
-    display: flex;
-    justify-content: flex-end;
+.header {
+    display: flexgit ;
     justify-content: space-around;
+    margin-left : 1000px;
+    margin-right : 30px;
+    font-size: 20px;
+    color :white;
 }
 
 /* structure de la couleur */
 body {
     background: linear-gradient(to right, rgb(107, 5, 107), rgb(205, 111, 92)) no-repeat;
-    height: 705px;
+    height: 750px;
 }
 
 /* structure du titre */
 #title {
     text-align: center;
-    font-family: 'Haettenschweiler', arial;
-  
+    font-size: 45px;
 }
-#image{
-    margin: 0 auto;
+
+#s:hover {
+    color :rgb(107, 5, 107);
+}
+
+#t:hover {
+    color :rgb(107, 5, 107);
+}
+
+#a:hover {
+    color :rgb(107, 5, 107);
+}
+
+#j:hover {
+    color :rgb(107, 5, 107);
+}
+
+#image {
+    margin-top: 5px;
+}
+
+#all {
+    justify-content: space-around;
+    display: flex;
 }
 #text{
     color:white;
