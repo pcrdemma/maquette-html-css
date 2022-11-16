@@ -1,3 +1,6 @@
+@import url(https://fr.allfont.net/allfont.css?fonts=haettenschweiler);
+@import url(https://fr.allfont.net/allfont.css?fonts=montserrat);
+
 /* structure du haut de page */
 .barre {
     display: flex;
@@ -14,5 +17,17 @@ body {
 /* structure du titre */
 #title {
     text-align: center;
+    font-family: 'Haettenschweiler', arial;
+  
 }
+#image{
+    margin: 0 auto;
+}
+#text{
+    color:white;
+    text-align: center;
+    font-family: 'Montserrat', arial;
+    font-size: 12px;
+    font-weight: lighter;
 
+}
