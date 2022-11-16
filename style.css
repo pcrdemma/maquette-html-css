@@ -1,0 +1,18 @@
+/* structure du haut de page */
+.barre {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+/* structure de la couleur */
+body {
+    background: linear-gradient(to right, rgb(107, 5, 107), rgb(205, 111, 92)) no-repeat;
+    height: 705px;
+}
+
+/* structure du titre */
+#title {
+    text-align: center;
+}
+
