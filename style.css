@@ -21,6 +21,7 @@ body {
 #title {
     text-align: center;
     font-size: 45px;
+    font-family: 'Haettenschweiler', arial;
 }
 
 #s:hover {
@@ -49,9 +50,11 @@ body {
 }
 #text{
     color:white;
-    text-align: center;
+    text-align: left;
     font-family: 'Montserrat', arial;
     font-size: 12px;
     font-weight: lighter;
-
+}
+#sneaker{
+    
 }
