@@ -13,7 +13,6 @@
 /* structure de la couleur */
 body {
     background: linear-gradient(to right, rgb(107, 5, 107), rgb(205, 111, 92)) no-repeat;
-    height: 750px;
 }
 
 /* structure du titre */
@@ -45,15 +44,43 @@ body {
 #all {
     display: flex ;
     justify-content: space-around;
+    text-align: justify;
 }
 
 #text{
     color:white;
-    text-align: left;
     font-family: 'Montserrat', arial;
     font-size: 12px;
-    font-weight: lighter;
+    /* border: solid 1px red ; */
+    text-align :justify;
 }
 #sneaker{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* border: solid 1px yellow; */
+   justify-content: center;
+   text-align: center;
+
+}
+.centred-element{
+    /* display: inline-block; */
+    border: solid 1px green;
     
+}
+
+.body{
+    display: inline-block;
+    /* border: solid 1px white; */
+    justify-content: center;
+
+}
+button{
+    width: 100%;
+    background-color:black;
+    color:white;
+    font-family: 'Haettenschweiler', arial;
+    border-radius: 20px;
 }
